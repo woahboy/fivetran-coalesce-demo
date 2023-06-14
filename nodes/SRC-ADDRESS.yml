@@ -1,0 +1,214 @@
+steps:
+  ADDRESS-58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: SRC
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 46bc7a82-03a9-42f3-bb28-56c54513eaab
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: BINARY(16)
+            defaultValue: ""
+            description: ""
+            name: ID
+            nullable: false
+            primaryKey: true
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 0a0e9d85-04b7-4686-8f5c-fe79eb1052df
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: BINARY(16)
+            defaultValue: ""
+            description: ""
+            name: SESSIONID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 324bc2df-b867-4ab1-b0df-f8caf48a19cc
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: BINARY(16)
+            defaultValue: ""
+            description: ""
+            name: ACTIVITYID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: e5024145-47d4-4b58-a192-d307063b3230
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: CASEID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 6ba41021-8d72-49a9-8552-a918b871ec21
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: BINARY(16)
+            defaultValue: ""
+            description: ""
+            name: MEDSINTERVIEWID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 99530553-3e24-438e-b19f-f361a2f73c21
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSTYPEID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: ab4f46c1-c853-40e2-81bd-43c7ffe4d071
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE1
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: fd0e29ca-c536-4cd0-9980-778a274134b1
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: ADDRESSLINE2
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 13c9ca73-2e47-4f5f-9e51-8f98c4bf34fa
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: VARCHAR(100)
+            defaultValue: ""
+            description: ""
+            name: CITY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 91d7bc90-a866-4583-bad9-a5be3ecf90a1
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: VARCHAR(2)
+            defaultValue: ""
+            description: ""
+            name: STATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 2dccfe95-3160-46a7-b5c3-fe83922849c6
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: ZIP
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 4f5ca2f7-a7d8-41c5-8685-80253f6bc9d1
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: COUNTY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: d7415bbe-2174-46d4-abdf-0781e9ba3c66
+              stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5
+            config: {}
+            dataType: TIMESTAMP_NTZ(3)
+            defaultValue: ""
+            description: ""
+            name: CREATEDON
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SRC', 'ADDRESS') }}
+      name: ADDRESS
+      schema: ""
+      sqlType: Source
+      table: ADDRESS
+      type: sourceInput
+    stepCounter: 58a4e9dd-5d6b-457f-b4c9-741cd7fff5b5

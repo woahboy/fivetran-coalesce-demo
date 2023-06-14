@@ -1,0 +1,94 @@
+steps:
+  ITEM-28de2fcc-ea7e-4bfe-90b6-0d6cbcef81a9:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: SRC
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 675ea1d8-f375-4873-a07e-06cef84e8867
+              stepCounter: 28de2fcc-ea7e-4bfe-90b6-0d6cbcef81a9
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: I_ID
+            nullable: false
+            primaryKey: true
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: e4d7e9a5-b1d4-4b16-a5dc-18940c74fb7d
+              stepCounter: 28de2fcc-ea7e-4bfe-90b6-0d6cbcef81a9
+            config: {}
+            dataType: VARCHAR(24)
+            defaultValue: ""
+            description: ""
+            name: I_NAME
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 5083ffdf-5eae-432c-be69-bc2a33c0ff1f
+              stepCounter: 28de2fcc-ea7e-4bfe-90b6-0d6cbcef81a9
+            config: {}
+            dataType: NUMBER(5,2)
+            defaultValue: ""
+            description: ""
+            name: I_PRICE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 11666464-fbd6-435f-b32a-1fc799534b42
+              stepCounter: 28de2fcc-ea7e-4bfe-90b6-0d6cbcef81a9
+            config: {}
+            dataType: VARCHAR(50)
+            defaultValue: ""
+            description: ""
+            name: I_DATA
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 82743353-71ff-498b-8ca8-96edc97b463c
+              stepCounter: 28de2fcc-ea7e-4bfe-90b6-0d6cbcef81a9
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: I_IM_ID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SRC', 'ITEM') }}
+      name: ITEM
+      schema: ""
+      sqlType: Source
+      table: ITEM
+      type: sourceInput
+    stepCounter: 28de2fcc-ea7e-4bfe-90b6-0d6cbcef81a9

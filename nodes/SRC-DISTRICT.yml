@@ -1,0 +1,199 @@
+steps:
+  DISTRICT-d17b10dc-4001-4b4e-aee1-db40c257e3a1:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: SRC
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 18f6bcb7-8be6-4829-898c-e90a799d8848
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: D_ID
+            nullable: false
+            primaryKey: true
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: bd4feced-ed1c-4c9a-a729-323f3f78b826
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: D_W_ID
+            nullable: false
+            primaryKey: true
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: b427027a-8e80-447a-984d-03e35c4cef81
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: NUMBER(19,4)
+            defaultValue: ""
+            description: ""
+            name: D_YTD
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: ed771657-f673-4fbb-a09f-e3d73408ba6e
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: D_NEXT_O_ID
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: bef3a6aa-fbac-4bf0-a17f-c2183562502a
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: NUMBER(3,2)
+            defaultValue: ""
+            description: ""
+            name: D_TAX
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 8c7b5ce7-5dd6-460f-a818-112fc36da677
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: VARCHAR(10)
+            defaultValue: ""
+            description: ""
+            name: D_NAME
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 20750a99-aac8-48f5-b7f9-90bdd797d522
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: D_STREET_1
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 1e16f7de-7f55-4c87-ac2f-ab893b0d4d33
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: D_STREET_2
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: d5353710-ceb6-490d-8bc7-6ea049c80e2e
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: VARCHAR(20)
+            defaultValue: ""
+            description: ""
+            name: D_CITY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 1651199f-a1b4-47dc-a737-fdd0b717ea31
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: VARCHAR(2)
+            defaultValue: ""
+            description: ""
+            name: D_STATE
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: dafe706e-51b3-4a4f-aaaa-e54ff44c62d4
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: VARCHAR(9)
+            defaultValue: ""
+            description: ""
+            name: D_ZIP
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 1969c7bb-4b93-47b3-8765-cf290284b757
+              stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1
+            config: {}
+            dataType: VARCHAR(6000)
+            defaultValue: ""
+            description: ""
+            name: PADDING
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SRC', 'DISTRICT') }}
+      name: DISTRICT
+      schema: ""
+      sqlType: Source
+      table: DISTRICT
+      type: sourceInput
+    stepCounter: d17b10dc-4001-4b4e-aee1-db40c257e3a1

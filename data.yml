@@ -1,5 +1,12 @@
 defaultStorageMapping: TGT
-jobs: {}
+jobs:
+  Job-1:
+    excludeSelector: ""
+    id: 1
+    includeSelector: "+{ location: TGT name: DIM_CUSTOMER }"
+    name: Customer Dimesion
+    steps: []
+    subgraphs: []
 locations:
   SRC:
     mappingDefinitions: {}
